@@ -1,3 +1,12 @@
-# Releases
-Business central On-Premise Releases for all 1Vision365 apps
+# 1Vision365 Releases
+
+Public OnPrem release packages and download links.
+
+[Release logs for BC28](./Release%2028.md)
+
+## Latest package
+
+| App Version | BC Version | Package | Date |
+|---|---|---|---|
+| 28.0.0 | BC 28.0 | [Download](./downloads/bc28/28.0/1Vision365-OnPrem-Apps-BC28.0-28.0.0.zip) | 25/04/2026 |
 
