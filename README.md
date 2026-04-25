@@ -2,8 +2,10 @@
 
 Public OnPrem release packages and download links.
 
-[Release logs for BC28](./Release%2028.md)
-[Release logs for BC27](./Release%2027.md)
+## Release logs
+
+- [BC28](./Release%2028.md)
+- [BC27](./Release%2027.md)
 
 ## Latest package
 
