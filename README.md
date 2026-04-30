@@ -11,26 +11,21 @@ Public OnPrem release packages and download links.
 
 | App Version | BC Version | Package | Date |
 |---|---|---|---|
-| 27.6.1 | BC 27.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc27/27.5/1Vision365-OnPrem-Apps-BC27.5-27.6.1.zip) | 29/04/2026 |
+| 27.7.0 | BC 27.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc27/27.5/1Vision365-OnPrem-Apps-BC27.5-27.7.0.zip) | 30/04/2026 |
 
-# Release notes 27.6.1
+# Release notes 27.7.0
 
 BC version: **27.5**
 
-[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/27.6.1)
+[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/27.7.0)
 
 ## Major changes
 
-* Fixed issue regarding Retention policy for 1vision365/roadmap#3 by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/14
-* Compile fixes and Translations for 1vision365/roadmap#4 by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/20
-* Automatic switch to production part 2 for 1vision365/roadmap#5 by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/23
+_No major changes._
 
 ## Minor changes
 
-* Incremented Version number by +0.1 by @github-actions[bot] in https://github.com/1vision365/1vision-appsource/pull/13
-* Updated ALGo Settings by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/15
-* Seperate PV Versions by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/16
-* Automatically switch to Production based on Machine Speed for 1vision??? by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/21
+* Incremented Version number by +0.1 by @github-actions[bot] in https://github.com/1vision365/1vision-appsource/pull/25
 
 
 
