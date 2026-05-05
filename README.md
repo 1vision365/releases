@@ -12,21 +12,25 @@ Public OnPrem release packages and download links.
 
 | App Version | BC Version | Package | Date |
 |---|---|---|---|
-| 26.5.92 | BC 26.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc26/26.5/1Vision365-OnPrem-Apps-BC26.5-26.5.92.zip) | 05/05/2026 |
+| 28.2.83 | BC 28.0 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.0/1Vision365-OnPrem-Apps-BC28.0-28.2.83.zip) | 05/05/2026 |
 
-# Release notes 26.5.92
+# Release notes 28.2.83
 
-BC version: **26.5**
+BC version: **28.0**
 
-[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/26.5.92)
+[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.2.83)
 
 ## Major changes
 
-_No major changes._
+* Enhanced Idle Time Registration with Mandatory Classification and Reason Codes for 1vision365/roadmap#4 and Automatically switch to Production based on Machine Speed for 1vision365/roadmap#5 by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/22
+* Automatic switch to production part 2 for 1vision365/roadmap#5 by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/24
 
 ## Minor changes
 
-* [release/27@d5f1063] Update AL-Go System Files from microsoft/AL-Go-AppSource@main - 04f60f7 by @1vision365-al-go-auth-app[bot] in https://github.com/1vision365/1vision-appsource/pull/31
+* Update to v28 by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/17
+* Incremented Version number by +0.1 by @github-actions[bot] in https://github.com/1vision365/1vision-appsource/pull/18
+* Enhanced Idle Time Registration for 1vision/roadmap#4 by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/19
+* Incremented Version number by +0.1 by @github-actions[bot] in https://github.com/1vision365/1vision-appsource/pull/26
 
 
 
