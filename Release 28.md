@@ -6,6 +6,7 @@ OnPrem download packages for Microsoft Dynamics 365 Business Central 28.
 
 | App Version | PrintVis Version | BC Version | Package | Release Notes | Source Release | Date |
 |---|---|---|---|---|---|---|
+| 28.2.114 | 28.0.0.2 | BC 28.1 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.1/1Vision365-OnPrem-Apps-BC28.1-28.2.114.zip) | [Release notes](https://github.com/1vision365/releases/blob/main/release-notes/bc28/28.1/28.2.114.md) | [GitHub Release](https://github.com/1vision365/1vision-appsource/releases/tag/28.2.114) | 14/05/2026 |
 | 28.2.83 | 28.0.0.1 | BC 28.0 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.0/1Vision365-OnPrem-Apps-BC28.0-28.2.83.zip) | [Release notes](https://github.com/1vision365/releases/blob/main/release-notes/bc28/28.0/28.2.83.md) | [GitHub Release](https://github.com/1vision365/1vision-appsource/releases/tag/28.2.83) | 05/05/2026 |
 | 28.0.0 | 28.0.0.0 | BC 28.0 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.0/1Vision365-OnPrem-Apps-BC28.0-28.0.0.zip) | [Release notes](https://github.com/1vision365/releases/blob/main/release-notes/bc28/28.0/28.0.0.md) | [GitHub Release](https://github.com/1vision365/1vision-appsource/releases/tag/28.0.0) | 28/04/2026 |
 
