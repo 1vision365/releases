@@ -12,35 +12,21 @@ Public OnPrem release packages and download links.
 
 | App Version | BC Version | Package | Date |
 |---|---|---|---|
-| 28.2.114 | BC 28.1 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.1/1Vision365-OnPrem-Apps-BC28.1-28.2.114.zip) | 14/05/2026 |
+| 28.2.134 | BC 27.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc27/27.5/1Vision365-OnPrem-Apps-BC27.5-28.2.134.zip) | 15/05/2026 |
 
-# Release notes 28.2.114
+# Release notes 28.2.134
 
-BC version: **28.1**
+BC version: **27.5**
 
-[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.2.114)
+[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.2.134)
 
 ## Major changes
 
-* Enhanced Idle Time Registration with Mandatory Classification and Reason Codes for 1vision365/roadmap#4 and Automatically switch to Production based on Machine Speed for 1vision365/roadmap#5 by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/22
-* Automatic switch to production part 2 for 1vision365/roadmap#5 by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/24
+_No major changes._
 
 ## Minor changes
 
-* Update to v28 by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/17
-* Incremented Version number by +0.1 by @github-actions[bot] in https://github.com/1vision365/1vision-appsource/pull/18
-* Enhanced Idle Time Registration for 1vision/roadmap#4 by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/19
-* Incremented Version number by +0.1 by @github-actions[bot] in https://github.com/1vision365/1vision-appsource/pull/26
-* [main@acb30e2] Update AL-Go System Files from microsoft/AL-Go-AppSource@main - 04f60f7 by @1vision365-al-go-auth-app[bot] in https://github.com/1vision365/1vision-appsource/pull/30
-* Fix modify problem when using Debug Mode by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/34
-* Update AL-Go settings to disable dependency artifact generation by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/35
-* Excluded Dependency Artifact Generation (storage) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/36
-* Revert "Update AL-Go settings to disable dependency artifact generation" by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/38
-* Revert "Excluded Dependency Artifact Generation (storage)" by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/39
-* Fix to Settings by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/41
-* roadmap/#8 Missing info on Idle Time Registration by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/42
-* roadmap/#9 Setup times continues besides production time after auto-switch to production by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/43
-* roadmap/#10 An archived job cannot be changed after entering comments by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/44
+_No minor changes._
 
 
 
