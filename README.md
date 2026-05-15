@@ -12,13 +12,13 @@ Public OnPrem release packages and download links.
 
 | App Version | BC Version | Package | Date |
 |---|---|---|---|
-| 28.2.134 | BC 27.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc27/27.5/1Vision365-OnPrem-Apps-BC27.5-28.2.134.zip) | 15/05/2026 |
+| 28.2.137 | BC 27.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc27/27.5/1Vision365-OnPrem-Apps-BC27.5-28.2.137.zip) | 15/05/2026 |
 
-# Release notes 28.2.134
+# Release notes 28.2.137
 
 BC version: **27.5**
 
-[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.2.134)
+[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.2.137)
 
 ## Major changes
 
