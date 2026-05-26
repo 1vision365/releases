@@ -12,13 +12,13 @@ Public OnPrem release packages and download links.
 
 | App Version | BC Version | Package | Date |
 |---|---|---|---|
-| 28.2.165 | BC 28.1 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.1/1Vision365-OnPrem-Apps-BC28.1-28.2.165.zip) | 25/05/2026 |
+| 28.3.167 | BC 28.1 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.1/1Vision365-OnPrem-Apps-BC28.1-28.3.167.zip) | 26/05/2026 |
 
-# Release notes 28.2.165
+# Release notes 28.3.167
 
 BC version: **28.1**
 
-[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.2.165)
+[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.3.167)
 
 ## Major changes
 
@@ -26,13 +26,7 @@ _No major changes._
 
 ## Minor changes
 
-* Agents/auto tests setup and conditional signing by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/48
-* ifm moneo: Add automated tests for ifm Moneo adapter by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/49
-* iotlink: add tests for previously untested procedures by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/50
-* Additional requirement to Automatic switching to Production by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/51
-* Improves permission checks and unit conversion in shopfloor logic by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/54
-* Adds section code support for idle time management by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/57
-* Merge from main by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/61
+_No minor changes._
 
 
 
