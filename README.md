@@ -12,13 +12,13 @@ Public OnPrem release packages and download links.
 
 | App Version | BC Version | Package | Date |
 |---|---|---|---|
-| 28.3.179 | BC 28.1 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.1/1Vision365-OnPrem-Apps-BC28.1-28.3.179.zip) | 02/06/2026 |
+| 28.3.181 | BC 28.1 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.1/1Vision365-OnPrem-Apps-BC28.1-28.3.181.zip) | 05/06/2026 |
 
-# Release notes 28.3.179
+# Release notes 28.3.181
 
 BC version: **28.1**
 
-[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.3.179)
+[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.3.181)
 
 ## Major changes
 
@@ -26,7 +26,7 @@ _No major changes._
 
 ## Minor changes
 
-* Enhances idle type reasons with description fields by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/64
+* Refactors idle time registration filters and field naming by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/65
 
 
 
