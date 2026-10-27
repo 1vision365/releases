@@ -12,13 +12,13 @@ Public OnPrem release packages and download links.
 
 | App Version | BC Version | Package | Date |
 |---|---|---|---|
-| 28.5.285 | BC 28.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.5/1Vision365-OnPrem-Apps-BC28.5-28.5.285.zip) | 27/10/2026 |
+| 28.5.294 | BC 28.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.5/1Vision365-OnPrem-Apps-BC28.5-28.5.294.zip) | 27/10/2026 |
 
-# Release notes 28.5.285
+# Release notes 28.5.294
 
 BC version: **28.5**
 
-[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.5.285)
+[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.5.294)
 
 ## Major changes
 
@@ -26,34 +26,11 @@ _No major changes._
 
 ## Minor changes
 
-* fix: actually create the Azure IoT Hub during V3 provisioning by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/119
-* fix: wire IoT Hub routing endpoint/rule into V3 provisioning by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/121
-* IoT Hub provisioning: show wait status and allow continuing past 4-minute timeout by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/124
-* fix: correct V3 Function App site config and IoT Hub wait dialog by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/126
-* fix(iotlink): allow restarting V3 setup wizard after unfinished run by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/128
-* fix(iotlink-v3): create 'iotconfig' blob container during provisioning by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/129
-* fix(iotlink-v3): attach empty HttpContent instead of manual Content-Length header by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/131
-* fix(iotlink-v3): push routingconfig.json early (post-provisioning) and fix silent failures by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/132
-* fix(iotlink-v3): surface Azure response body on blob push/container-create failures by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/133
-* fix(iotlink-v3): set Content-Length explicitly before Shared Key signing by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/134
-* feat(iotlink-v3): batch config settings for BC endpoint batching (#31) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/137
-* feat(iotlink-v3): prefill BC Endpoint OAuth2 Tenant/Client ID from App Registration by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/135
-* Fix: IoTLibrary.GetIoTSetup throws when no IoT Setup record exists by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/159
-* Fixes #165: make Idle Time Registration Comment field directly editable by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/166
-* Fixes #165: move Comment editable write-back off the FlowField OnValidate by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/167
-* Add workflow to preview issues in the next AppSource release by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/168
-* Preview: separate issues that shipped in the previous release by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/169
-* Auto-create CIM Controller/Device from IoT Hub events by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/171
-* CI/CD: main automatisch naar de Sandbox publiceren by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/172
-* Fix #170: remove CreateOrLinkCim from public IControllerAdapter interface by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/173
-* Fix #170: reset filter leaked by GetCimController; fix Code-case test assertion by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/174
-* fix(iotlink): ensure 1VIS IoT Setup record exists in V3 test init by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/179
-* ci: don't sign apps on integration/* and feature/* builds by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/182
-* test(ifm): shorten device code to fit Code[20] by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/181
-* ci: keep repoVersion (+16) in PR builds by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/180
-* feat(iotlink): V3 setup wizard by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/178
-* ci: Sandbox-deploy installeert geen dependencies (DependencyInstallMode ignore) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/183
-* ci: Full Release herhaalt GET-aanroepen bij tijdelijke API-fouten by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/184
+* fix(#185): Idle Time-segmentatie ook voor regels in het goedkeuringsdagboek by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/189
+* ci: CI/CD push trigger feature/** (ook feature/bc28/<wie>/<onderwerp>) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/190
+* Fix: Starttijd in UTC op dagboekregels van IoT auto-switch-to-production (#186) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/191
+* fix: reset Production Started on new job start (#187) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/192
+* test(connector): start a different job in stale Production Started test (#187) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/193
 
 
 
