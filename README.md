@@ -12,13 +12,13 @@ Public OnPrem release packages and download links.
 
 | App Version | BC Version | Package | Date |
 |---|---|---|---|
-| 28.5.299 | BC 28.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.5/1Vision365-OnPrem-Apps-BC28.5-28.5.299.zip) | 28/10/2026 |
+| 28.5.302 | BC 28.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.5/1Vision365-OnPrem-Apps-BC28.5-28.5.302.zip) | 29/10/2026 |
 
-# Release notes 28.5.299
+# Release notes 28.5.302
 
 BC version: **28.5**
 
-[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.5.299)
+[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.5.302)
 
 ## Major changes
 
@@ -26,8 +26,7 @@ _No major changes._
 
 ## Minor changes
 
-* fix(#187): Auto Switch to Production wacht de Speed Duration Threshold echt af by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/196
-* fix(#188): 'Behandel deze registraties' toont de onverklaarde stilstanden weer by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/195
+* fix(#197, #198): redencode op stilstand uit shopfloordagboek; inrichtregel bewaren bij auto-switch by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/199
 
 
 
