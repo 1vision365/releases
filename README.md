@@ -12,13 +12,13 @@ Public OnPrem release packages and download links.
 
 | App Version | BC Version | Package | Date |
 |---|---|---|---|
-| 28.5.302 | BC 28.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.5/1Vision365-OnPrem-Apps-BC28.5-28.5.302.zip) | 29/10/2026 |
+| 28.5.380 | BC 28.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.5/1Vision365-OnPrem-Apps-BC28.5-28.5.380.zip) | 05/11/2026 |
 
-# Release notes 28.5.302
+# Release notes 28.5.380
 
 BC version: **28.5**
 
-[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.5.302)
+[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.5.380)
 
 ## Major changes
 
@@ -26,7 +26,27 @@ _No major changes._
 
 ## Minor changes
 
-* fix(#197, #198): redencode op stilstand uit shopfloordagboek; inrichtregel bewaren bij auto-switch by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/199
+* Add 1Vision Change Agent spike app (BC Agent SDK) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/208
+* Change Agent: eigen Application Insights-resource voor validatietelemetrie by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/209
+* Change Agent: minimale BC-versie 28.1 (AL0185 op 28.0) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/210
+* Change Agent: platform terug naar 28.0.0.0 (build 336 faalde op System.app) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/211
+* Revert: Change Agent AppSource-testindiening van main by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/212
+* Update image assets for IoT-2-PrintVis adapters and connector by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/213
+* BC Agent: add Change Agent logo for upcoming app (#203) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/214
+* docs: pilot customer checklist and onboarding runbook (#205) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/215
+* Add 1Vision Change Agent: request intake with text + docx/pdf upload (#203) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/216
+* CI: Deploy to Sandbox installs missing dependencies by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/219
+* CI: revert DependencyInstallMode to ignore (undo #219) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/220
+* Change Agent: default Gateway Base URL = gateway.1visionchangeagent.com by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/221
+* Change Agent: send environmentType in lower case (fixes 422 on activation) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/222
+* fix(#225, #226): Verloren tijd op stilstand in shopfloordagboek; tijden na auto-switch op de klok van de operator by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/229
+* feat(#228): sectie, inactief soort en redencode op het PrintVis Verbruiksdagboek by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/230
+* ci: cancel superseded CI/CD runs on the same branch by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/234
+* fix(#227): groene 'actief'-balk volgt de lopende eenheid na automatisch overschakelen by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/232
+* Align Change Agent with real gateway contract (activation config, tenant status, token request) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/233
+* ci: incremental builds (modifiedProjects) on feature branches by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/236
+* ci: sandbox deploy with SyncMode ForceSync by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/237
+* fix(bcagent): wizard Title field editable by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/239
 
 
 
