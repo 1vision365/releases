@@ -12,13 +12,13 @@ Public OnPrem release packages and download links.
 
 | App Version | BC Version | Package | Date |
 |---|---|---|---|
-| 28.5.380 | BC 28.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.5/1Vision365-OnPrem-Apps-BC28.5-28.5.380.zip) | 05/11/2026 |
+| 28.5.471 | BC 28.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.5/1Vision365-OnPrem-Apps-BC28.5-28.5.471.zip) | 09/11/2026 |
 
-# Release notes 28.5.380
+# Release notes 28.5.471
 
 BC version: **28.5**
 
-[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.5.380)
+[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.5.471)
 
 ## Major changes
 
@@ -26,27 +26,30 @@ _No major changes._
 
 ## Minor changes
 
-* Add 1Vision Change Agent spike app (BC Agent SDK) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/208
-* Change Agent: eigen Application Insights-resource voor validatietelemetrie by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/209
-* Change Agent: minimale BC-versie 28.1 (AL0185 op 28.0) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/210
-* Change Agent: platform terug naar 28.0.0.0 (build 336 faalde op System.app) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/211
-* Revert: Change Agent AppSource-testindiening van main by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/212
-* Update image assets for IoT-2-PrintVis adapters and connector by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/213
-* BC Agent: add Change Agent logo for upcoming app (#203) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/214
-* docs: pilot customer checklist and onboarding runbook (#205) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/215
-* Add 1Vision Change Agent: request intake with text + docx/pdf upload (#203) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/216
-* CI: Deploy to Sandbox installs missing dependencies by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/219
-* CI: revert DependencyInstallMode to ignore (undo #219) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/220
-* Change Agent: default Gateway Base URL = gateway.1visionchangeagent.com by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/221
-* Change Agent: send environmentType in lower case (fixes 422 on activation) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/222
-* fix(#225, #226): Verloren tijd op stilstand in shopfloordagboek; tijden na auto-switch op de klok van de operator by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/229
-* feat(#228): sectie, inactief soort en redencode op het PrintVis Verbruiksdagboek by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/230
-* ci: cancel superseded CI/CD runs on the same branch by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/234
-* fix(#227): groene 'actief'-balk volgt de lopende eenheid na automatisch overschakelen by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/232
-* Align Change Agent with real gateway contract (activation config, tenant status, token request) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/233
-* ci: incremental builds (modifiedProjects) on feature branches by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/236
-* ci: sandbox deploy with SyncMode ForceSync by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/237
-* fix(bcagent): wizard Title field editable by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/239
+* fix(bcagent): Add Attachment enabled in request wizard by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/240
+* fix(bcagent): wizard Next inserts a clean new request by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/242
+* BC Agent: entry point, request list, Role Center tile and Agent SDK registration by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/244
+* fix(bcagent): use gateway request id in GET and attachment URLs by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/245
+* fix(bcagent): read-back tolerates JSON null class by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/246
+* fix(bcagent): request card: no qualified enum values in page expressions by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/247
+* fix(bcagent): register Copilot capability on upgrade by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/248
+* BC Agent: rich-text Description (RichContent) with HTML-to-plain-text gateway conversion by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/243
+* fix(bcagent): agent creation, Microsoft Billed capability, card refresh, setup fixes by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/249
+* feat(bcagent): default agent user name 1VISION CHANGE AGENT by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/250
+* BC Agent: map gateway stage and add customer screens for questions, answers and spec approval by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/252
+* fix(bcagent): GetQuestions AsValue() crash on non-empty questions array (#254) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/255
+* ci: non-blocking AL Runner trial for PR test results by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/194
+* feat(bcagent): push installed-app object catalog to gateway (#258) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/261
+* Implement automatic refresh of open requests via Job Queue Entry (#256) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/263
+* Fix request card concurrency errors and add immediate feedback (#264) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/267
+* Render Markdown spec/assessment summary as readable HTML (#265) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/270
+* Fix unhandled confirmation messages in StageScreens tests + compile-blocking ID collision (#271) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/272
+* fix: StageScreens tests assert POST+GET separately for accept/approve (#275) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/276
+* ci: sign apps only on main, skip by default by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/274
+* fix(bcagent): regeleinden in spec/assessment behouden en bcVersion bij elke aanvraag (#278) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/280
+* Send the customer's spec language with a change request (#269) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/277
+* Change Agent: sanitizer, progress/auto-refresh, honest post-approval message, gateway request id, job queue fixes (#283) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/284
+* fix(#285): aantal van een korte draaiperiode tussen stilstanden blijft behouden by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/286
 
 
 
