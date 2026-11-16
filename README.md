@@ -12,13 +12,13 @@ Public OnPrem release packages and download links.
 
 | App Version | BC Version | Package | Date |
 |---|---|---|---|
-| 28.5.475 | BC 28.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.5/1Vision365-OnPrem-Apps-BC28.5-28.5.475.zip) | 12/11/2026 |
+| 28.5.485 | BC 28.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.5/1Vision365-OnPrem-Apps-BC28.5-28.5.485.zip) | 16/11/2026 |
 
-# Release notes 28.5.475
+# Release notes 28.5.485
 
 BC version: **28.5**
 
-[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.5.475)
+[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.5.485)
 
 ## Major changes
 
@@ -26,8 +26,9 @@ _No major changes._
 
 ## Minor changes
 
-* chore: fase 6 - Change Agent (bcagent/, docs/bc-agent/) verwijderd by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/295
-* IoT-2-PrintVis: no idle time while a makeready operation runs by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/296
+* fix(xlf-sync): regeleinden gelijk houden (pure CRLF) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/298
+* fix(iot2printvis): assign Extra Work Code from the matching Idle Type Rsn (AL Runner #288) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/302
+* fix(iot2printvis): average current speed over a window per cost center by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/301
 
 
 
