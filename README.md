@@ -12,13 +12,13 @@ Public OnPrem release packages and download links.
 
 | App Version | BC Version | Package | Date |
 |---|---|---|---|
-| 28.5.485 | BC 28.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.5/1Vision365-OnPrem-Apps-BC28.5-28.5.485.zip) | 16/11/2026 |
+| 28.5.492 | BC 28.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.5/1Vision365-OnPrem-Apps-BC28.5-28.5.492.zip) | 18/11/2026 |
 
-# Release notes 28.5.485
+# Release notes 28.5.492
 
 BC version: **28.5**
 
-[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.5.485)
+[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.5.492)
 
 ## Major changes
 
@@ -26,9 +26,11 @@ _No major changes._
 
 ## Minor changes
 
-* fix(xlf-sync): regeleinden gelijk houden (pure CRLF) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/298
-* fix(iot2printvis): assign Extra Work Code from the matching Idle Type Rsn (AL Runner #288) by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/302
-* fix(iot2printvis): average current speed over a window per cost center by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/301
+* fix(iot2pv): split machine counter range across idle-time segments (#304) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/305
+* fix: xlf-sync overview mail fails due to H/Get-History alias collision by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/293
+* Fix #306: translate NextSegmentCounterRange comments to English by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/308
+* Protect-Terms: use case-sensitive -creplace for consistency (#303) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/307
+* fix: BigInteger-typed assert on Machine Counter fields (issue #310, CI red since #305) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/311
 
 
 
