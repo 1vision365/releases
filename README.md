@@ -12,13 +12,13 @@ Public OnPrem release packages and download links.
 
 | App Version | BC Version | Package | Date |
 |---|---|---|---|
-| 28.5.492 | BC 28.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.5/1Vision365-OnPrem-Apps-BC28.5-28.5.492.zip) | 18/11/2026 |
+| 28.5.497 | BC 28.5 | [Download](https://github.com/1vision365/releases/raw/main/downloads/bc28/28.5/1Vision365-OnPrem-Apps-BC28.5-28.5.497.zip) | 20/11/2026 |
 
-# Release notes 28.5.492
+# Release notes 28.5.497
 
 BC version: **28.5**
 
-[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.5.492)
+[Original GitHub release](https://github.com/1vision365/1vision-appsource/releases/tag/28.5.497)
 
 ## Major changes
 
@@ -26,11 +26,9 @@ _No major changes._
 
 ## Minor changes
 
-* fix(iot2pv): split machine counter range across idle-time segments (#304) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/305
-* fix: xlf-sync overview mail fails due to H/Get-History alias collision by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/293
-* Fix #306: translate NextSegmentCounterRange comments to English by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/308
-* Protect-Terms: use case-sensitive -creplace for consistency (#303) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/307
-* fix: BigInteger-typed assert on Machine Counter fields (issue #310, CI red since #305) by @1vision365-neo[bot] in https://github.com/1vision365/1vision-appsource/pull/311
+* ci: pin AL Runner install script to ALRUNNER_VERSION tag by @1vision365-sharpcoder[bot] in https://github.com/1vision365/1vision-appsource/pull/309
+* feat(iot2printvis): idle time unit of measure per cost center by @1Vision365-PeterTijsma in https://github.com/1vision365/1vision-appsource/pull/313
+* @1vision365-sharpcoder[bot] made their first contribution in https://github.com/1vision365/1vision-appsource/pull/309
 
 
 
